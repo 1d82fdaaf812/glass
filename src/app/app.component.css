@@ -1,0 +1,78 @@
+body {
+  color: gray;
+}
+/*header*/
+.gs-hea {
+  display: flex;
+ height: 70px;
+}
+.gs-log {
+    flex: 1;
+  height: inherit;
+  min-width: 200px;
+    text-align: center;
+}
+.gs-bar {
+  flex: 4;
+  height: inherit;
+  min-width: 200px;
+}
+.gs-nav {
+ flex: 3;
+ background-color: black;
+ height: inherit;
+ min-width: 200px;
+}
+/*body*/
+.gs-bod {
+  display: flex;
+  height: 600px;
+}
+.gs-rig {
+  flex: 1;
+  background-color: lightgray;
+  position: relative;
+  height: inherit;
+  min-width: 200px;
+}
+.gs-cen {
+  flex: 6;
+  background-color: greenyellow;
+  position: relative;
+  height: inherit;
+  min-width: 200px;
+}
+.gs-lef {
+  flex: 1;
+  background-color: grey;
+  position: relative;
+  height: inherit;
+  min-width: 200px;
+}
+/*footer*/
+.gs-foo {
+  background-color:mediumseagreen;
+  height: 70px;
+}
+
+/*titles*/
+.gs-ttl {
+font-size: 38px;
+}
+
+/*buttons*/
+.gs-btn {
+    font-size: 24px;
+    height: 52px;
+    border-bottom: 4px solid dodgerblue;
+}
+.gs-bta {
+    color: dodgerblue;
+    
+}
+.gs-btc {
+    display: inline-block;
+  height: inherit;
+  margin-top: 14px;
+  
+}
