@@ -1,0 +1,25 @@
+{
+  "links": [
+    {
+      "name":"GRPS",
+      "url": "/groups"
+    },
+    {
+      "name":"USRS",
+      "url": "/users",
+      "active": true
+    },
+    {
+      "name":"ACTV",
+      "url": "/activity"
+    },
+    {
+      "name":"AUTH",
+      "url": "/auth"
+    },
+    {
+      "name":"SCRT",
+      "url": "/security"
+    }
+  ]
+}

@@ -4,17 +4,8 @@
     <span>Building with transparency</span>
   </div>
   <div class="gs-bar">
-    <div class="gs-btc">
-      <div class="gs-btn">ABCD</div>
-    </div>
-    <div class="gs-btc gs-bta">
-      <div class="gs-btn">ABCD</div>
-    </div>
-    <div class="gs-btc">
-      <div class="gs-btn">ABCD</div>
-    </div>
-    <div class="gs-btc">
-      <div class="gs-btn">ABCD</div>
+    <div class="gs-btc" *ngFor="let link of links" [ngClass]="{'gs-bta': link.active}">
+      <div class="gs-btn" (click)="setActive(link)">{{link.name}}</div>
     </div>
   </div>
   <div class="gs-nav">
@@ -24,7 +15,8 @@
 </div>
 <div class="gs-bod">
   <div class="gs-rig"></div>
-  <div class="gs-cen"></div>
+  <div class="gs-cen">
+  </div>
   <div class="gs-lef"></div>
 </div>
 <div class="gs-foo"> </div>

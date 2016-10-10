@@ -37,7 +37,6 @@ body {
 }
 .gs-cen {
   flex: 6;
-  background-color: greenyellow;
   position: relative;
   height: inherit;
   min-width: 200px;
@@ -62,17 +61,18 @@ font-size: 38px;
 
 /*buttons*/
 .gs-btn {
-    font-size: 24px;
-    height: 52px;
-    border-bottom: 4px solid dodgerblue;
+  font-size: 24px;
+  height: 52px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .gs-bta {
-    color: dodgerblue;
-    
+  color: dodgerblue;
+  border-bottom: 4px solid dodgerblue;
 }
 .gs-btc {
-    display: inline-block;
-  height: inherit;
+  display: inline-block;
+  height: 52px;
   margin-top: 14px;
   
 }
